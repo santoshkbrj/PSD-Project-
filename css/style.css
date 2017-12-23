@@ -1,0 +1,488 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+/* Start navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  
+}
+.navbar-default .navbar-nav li a{
+	  font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #87d37c;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+}
+.logo img{
+	width:130px;
+}
+.navbar-toggle{
+	margin-top: 40px;
+}
+.menu-bg{
+	background:  #7cd3cfc7;
+}}
+.navbar-nav{
+	margin-top: 30px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus,
+ .navbar-default .navbar-nav>.open>a:hover{
+ 	background: none;
+ 	color: #fff;
+ }
+
+ .navbar-nav>li>.dropdown-menu{
+ 	background: #87d37c;	
+ }
+ .navbar-nav>li>.dropdown-menu:hover{
+ 	background: #87d37c;
+ }
+
+
+
+/* End navbar*/
+
+/* Start slider*/
+#slider{
+	background: url(../images/slide1.jpg);
+}
+.slider-overlay{
+	width: 100%;
+	background: rgba(0,0,0,.3);
+}
+.item{
+	padding: 180px 0;
+	color: #fff;
+}
+.item h3{
+	font-size: 40px;
+}
+.item h2{
+	font-size: 100px;
+	border: 2px solid #fff;
+	max-width: 670px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.item span{
+	color: #87d37c;
+}
+.item{
+	font-size: 36px;
+}
+.carousel-indicators li{
+	background: #87d37c;
+	border: 1px solid #87d37c;
+
+}
+/*====  End Start slider====*/
+
+/* ====Start About Area=====*/
+#about{
+		color: #030303;
+		padding: 110px 0;
+}
+.about-top h2{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about-top p{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.about-icon{
+	margin-bottom: 30px;
+}
+.about-content
+.about-icon i{
+	font-size: 50px; 
+}
+.about-icon h2{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about-icon p{
+	font-size: 14px;
+}
+.about-icon i:hover,
+.about-icon h2:hover{
+	color: #87d37c;
+}	
+/*===== End About Area======*/
+
+/*===== Start Service Area======*/
+#service{
+	background: #e1e1e1;
+	padding: 90px 0;
+}
+.service-top h2{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.service-top p{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.service-image{
+	margin-bottom: 30px;
+}
+.service-image img{
+	width: 100%;
+}
+.service-image{
+	position: relative;
+	overflow: hidden;
+}
+.service-overlay{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .5s;
+}
+.service-image:hover .service-overlay{
+	top:0;
+}
+.service-icon{
+	position: absolute;
+	bottom: -100%;
+	transition: .5s;
+	left: 30%;
+}
+.service-icon i{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	color: #87d37c;
+}
+.service-image:hover .service-icon{
+	bottom: 40%;
+}
+/*===== End Service Area======*/
+
+/*===== Start Portfolio Area======*/
+#portfolio{
+	padding: 100px 0;
+}
+#portfolio h2{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+#portfolio p{
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+* { box-sizing: border-box; }
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 60px;
+  background: #000000d4;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #87d37c;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #87d37c;
+}
+
+.button.is-checked {
+  color: white;  
+}
+/* ---- button-group ---- */
+.button-group .button {
+  
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+/* clear fix */
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 33%;
+  color: #262524;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+.isotope-overlay{
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .5s;
+}
+.isotope-overlay h2{
+	color: #87d37c;
+	margin-top: 60px;
+}
+.isotope-overlay p{
+	color: #fff;
+	text-align: center;
+
+}
+.element-item:hover .isotope-overlay{
+	top:0;
+}
+.element-item img{
+	width: 100%;
+}
+/*===== End Portfolio Area======*/
+
+
+/*===== Pricing Area======*/
+#pricing{
+	padding: 100px 0;
+}
+.pricing-top h2{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.pricing-top p{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.price{
+	background: #39393a;
+	padding: 20px;
+	border-radius: 5px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.price-top{
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+	margin: 0 auto;
+}
+.price-top p{
+	margin-top: 20px;
+}
+.price-top sup{
+	font-size: 18px;
+	top: -3px;
+	left: -5px;
+}
+.price-top em{
+	font-size: 25px;
+}
+.price-top span{
+	text-transform: uppercase;
+}
+.price ul{
+	padding: 0;
+}
+.price a{
+	color:#fff;
+}
+.price ul li{
+	max-width: 145px;
+	border-bottom: 1px solid #fff;
+	list-style:none;
+	margin: 0 auto;
+	padding: 12px 0;
+	font-size: 16px;	
+}
+.price ul li a{
+	text-decoration: none;
+}
+.btn a{
+	background: #fff;
+	color: #39393a;
+	text-transform: uppercase;
+	padding: 8px;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.price:hover{
+	background:  #87d37c;
+	transition: .7s;
+}
+.price-top:hover{
+	color: #87d37c;
+	background: #fff;
+}
+
+/*===== End pricing Area======*/
+
+/*===== Start Counter Area======*/
+#counter{
+	background: url(../images/parallex.jpg);
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter-overlay{
+	background-color: rgba(0,0,0,.5);
+}
+.counter-content{
+	padding-top: 100px;
+	padding-bottom: 230px;
+
+}
+.count{
+	border: 1px solid #5f5a58;
+	color: #fff;
+	text-align: center;
+	background: rgba(0,0,0,.7);
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.counter{
+	font-size: 30px;
+	font-weight: bold;
+}
+.count h3{
+	font-size: 15px;
+}
+/*===== End counter Area======*/
+
+/*===== Start contact Area======*/
+#contactus{
+	padding: 100px;
+}
+.contact-top h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contact-top p{
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.contact-icon{
+	margin-bottom: 30px;
+}
+.contact-icon i{
+	color: #232424;
+	font-size: 40px; 
+	transition: .5s;
+}
+.contact-icon:hover i,
+.contact-icon:hover h2{
+	color:  #87d37c; 
+}
+.contact-icon h2{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	transition: .5s;
+}
+.contact-icon h4{
+	font-size: 15px;
+}
+
+/*===== End contact Area======*/
+
+/*===== Start contact Form======*/
+#contact-form{
+	padding: 80px 0;
+	background: #f5f5f5;
+}
+.form-control{
+	border-radius: 0;
+	padding: 15px;
+	margin: 15px 0;
+	border: 1px solid #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+.text-area textarea{
+	height: 80px;
+}
+.text-area button{
+	margin-top: 3px;
+	background: #87d37c;
+	color: #fff;
+	text-transform: uppercase;
+}
+.btn-default{
+	border-color: #87d37c;
+}
+/*===== End contact Form======*/
+
+/*===== start goole map======*/
+#map{
+	margin: 0;
+	padding: 0;
+	
+}
+/*===== End google map======*/
+
+/*=====scroll ======*/
+.scroll-up{
+	width: 50px;
+	height: 45px;
+	font-size: 30px;
+	color: #fff;
+	background:#87d37c;
+	text-align: center;
+	position: fixed;
+	bottom: 70px;
+	right: 30px;
+}
+/*===== end scroll======*/
+
+
+/*===== footer======*/
+#footer{
+	background: #000;
+	padding: 20px 0;
+}
+.footer-text p{
+	color: #fff;
+	font-size: 12px;
+
+}
+.footer-icon i{
+	font-size: 20px;
+	padding: 0 5px;
+	float: right;
+	
+}
+
+
+/*===== End footer======*/

@@ -1,0 +1,41 @@
+@media screen and (max-width: 640px) {
+  .item h2{
+  	font-size: 60px;
+  	max-width: 500px;
+  }
+  .item h3{
+  	font-size: 20px;
+  }
+  .item h4{
+  	font-size:18px; 
+  }
+  .about-icon{
+  	max-width: 292px;
+  	margin: 30px auto;
+  }
+  .service-image{
+  	max-width: 292px;
+  	margin: 30px auto;
+  }
+  .element-item{
+  	width: 50%;
+
+  }
+  .price{
+  	max-width: 292px;
+  	margin: 30px auto; 
+  }
+  .count{
+  	margin: 30px auto;
+  	max-width: 292px;
+  }
+	
+}
+@media screen and (max-width:480px){
+	.element-item{
+		width: 100%;
+	}
+	
+	
+
+}
